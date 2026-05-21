@@ -8,7 +8,7 @@ public class BinarySearch {
         while(low<=high){
             int index=low+(high-low)/2;
             if(nums[index]==target)return index;
-            else if(nums[index]>target){
+            else if(nums[index]>target) {
                 high=index-1;
             }
             else low=index+1;
