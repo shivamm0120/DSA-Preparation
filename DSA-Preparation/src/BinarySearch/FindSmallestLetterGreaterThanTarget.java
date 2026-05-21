@@ -1,3 +1,10 @@
+/*
+Problem: Search Insert Position
+Approach: Binary Search
+
+Time Complexity: O(log n)
+Space Complexity: O(1)
+*/
 package BinarySearch;
 
 public class FindSmallestLetterGreaterThanTarget {
