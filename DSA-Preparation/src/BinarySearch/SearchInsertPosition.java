@@ -1,6 +1,10 @@
 /*
 Problem: Search Insert Position
 Approach: Binary Search
+  This is actually the same problem as lower bound .
+  lower bound condition was nums[index]>=target.
+  so, index where nums[index]==target will give the actual index where it is present 
+  and the nums[index]>target will give the index where it should be inserted
 
 Time Complexity: O(log n)
 Space Complexity: O(1)
