@@ -91,8 +91,7 @@ public class SearchInRotatedSortedArrayIncludingDuplicates {
 }
 
 
-/*
-	        Duplicates block identification
+/* Example for duplicates blocking identification
 	        of sorted half
 
 	        Example:
