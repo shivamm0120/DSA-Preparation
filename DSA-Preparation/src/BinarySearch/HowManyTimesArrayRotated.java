@@ -33,7 +33,7 @@ public class HowManyTimesArrayRotated {
 
 	    while (low <= high) {
 
-	        // Entire range sorted--optimization
+	        // Entire range sorted  =>optimization
 	        // smallest element is at low
 	        if (nums[low] <= nums[high]) {
 	        	    //update ans and index
@@ -70,7 +70,7 @@ public class HowManyTimesArrayRotated {
 	        			
 	        		// minimum lies in left half
 	        		high = mid - 1;
-	        		}
+	        	}
 
 	    }
 
