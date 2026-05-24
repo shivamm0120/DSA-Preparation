@@ -55,7 +55,7 @@ public class SingleElementInSortedArray {
 		                // single element on right side
 		                low = mid + 1;
 		            }
-		            // single element on left side
+		            // single element on left side  
 		            else {
 
 		                high = mid - 1;
