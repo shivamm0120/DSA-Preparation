@@ -13,13 +13,13 @@ package BinarySearch;
 public class HowManyTimesArrayRotated {
 	public static void main(String[] args) {
 		int []nums1= {5,6,7,0,2,3};
-		System.out.println("no of times array rotated is:"+rotateTimes(nums1));
+		System.out.println("no of times array rotated is:"+rotateTimes(nums1));//3
 		
 		int []nums2= {1,2,4,5,8};
-		System.out.println("no of times array rotated is:"+rotateTimes(nums2));
+		System.out.println("no of times array rotated is:"+rotateTimes(nums2));//0
 		
 		int []nums3= {5,6,0,1,2,3,4};
-		System.out.println("no of times array rotated is:"+rotateTimes(nums3));
+		System.out.println("no of times array rotated is:"+rotateTimes(nums3));//2
 		
 	}
 
