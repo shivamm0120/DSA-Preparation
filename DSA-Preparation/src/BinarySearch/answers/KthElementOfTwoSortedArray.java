@@ -90,6 +90,6 @@ public class KthElementOfTwoSortedArray {
 	                low = mid1 + 1;
 	        }
 
-	        return -1;
+	        return -1 ; 
 	    }
 }
