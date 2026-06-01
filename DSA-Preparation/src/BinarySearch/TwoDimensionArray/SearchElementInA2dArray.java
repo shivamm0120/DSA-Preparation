@@ -1,4 +1,8 @@
 /*Problem- Search element in a 2D array
+ * Given conditions-
+ * Each row is sorted in non-decreasing order.
+ * The first integer of each row is greater than the last integer of the previous row.
+ * 
  *Approach-
  * Treat this 2d array has 1D array
  * so total elements will be m*n (mxn matrix)
@@ -12,7 +16,8 @@
  * mid/n=>will give row no
  * mid%n=>will give col no 
  * 
- * 
+ * T.C=>O(log(m*n))
+ * S.C=O(1)
  */
 package BinarySearch.TwoDimensionArray;
 
