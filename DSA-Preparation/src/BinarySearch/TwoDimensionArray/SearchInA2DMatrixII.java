@@ -32,7 +32,7 @@
  */
 package BinarySearch.TwoDimensionArray;
 
-public class SearchInA2DMatrix {
+public class SearchInA2DMatrixII {
 	public boolean searchMatrix(int[][] matrix, int target) {
 
 	    int m = matrix.length;
@@ -50,7 +50,7 @@ public class SearchInA2DMatrix {
 
 	        // Target found
 	        if (current == target) {
-	            return true;
+	            return true ;
 	        }
 	        
 	        // Current element is too large
