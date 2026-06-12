@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndBacktracking;
 
 public class PowerOfXAndN_UsingRecursion {
 	public static void main(String[] args) {

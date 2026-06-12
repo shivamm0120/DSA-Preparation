@@ -1,4 +1,4 @@
-package Recursion;
+package RecursionAndBacktracking;
 
 public class CountGoodNumbers {
 	public static void main(String[] args) {

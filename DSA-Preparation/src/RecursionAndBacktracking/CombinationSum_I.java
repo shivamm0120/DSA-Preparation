@@ -31,7 +31,7 @@ Restore the previous state so other combinations can be explored.
  *Space Complexity: O(target / minElement)
  *(min element will give the maximum recursion depth thats why min element
  */
-package Recursion;
+package RecursionAndBacktracking;
 
 import java.util.ArrayList;
 import java.util.List;
