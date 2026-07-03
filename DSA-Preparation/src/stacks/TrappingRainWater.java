@@ -1,12 +1,14 @@
-/* Problem -Trapping rain water
+/*Problem -Trapping rain water
+ * 
   Approach
   ========
 1. Brute Force Approach
+=========================
   Idea:
-    create 2 arrays left max and right max
+    	 create 2 arrays left max and right max
      now  find left max and right max for each index 
 
-  Now traverse the array and at each index:
+  	 Now traverse the array and at each index:
      water = min(leftMax, rightMax) - height[i]
      Add it to the answer.
 
@@ -14,22 +16,25 @@
   Space complexity=O(2n)
 
 2.Optimized approach
+=====================
   Idea:To find trapped water at some index,it only depends on one value either left max and right max ..but not on both.
   Use two pointers and maintain:
 
-left, right
-leftMax, rightMax
-Key Observation
-If leftMax <= rightMax, then water at the left depends only on leftMax.
-and we will always traverse the smaller one ..assuming that the other side has higher wall
-Otherwise, water at the right depends only on rightMax.
+	left, right
+	leftMax, rightMax
+	
+	Key Observation:
+	 If leftMax <= rightMax, then water at the left depends only on leftMax.
+	 and we will always traverse the smaller one ..assuming that the other side has higher wall
+	 Otherwise, water at the right depends only on rightMax.
 
-This is because the smaller boundary limits the amount of water that can be trapped.
+	 This is because the smaller boundary limits the amount of water that can be trapped.
 
   TC:O(n)(single traversal)
   SC:O(1)
 *
-/
+*/
+package stacks;
 class Solution {
     public int trap(int[] height) {
         int lMax=0,rMax=0,trap=0;
