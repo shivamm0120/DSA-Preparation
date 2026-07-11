@@ -45,7 +45,7 @@ public class SlidingWindowMaximum {
 			//why decreasing ?so that we can retrive max on calling peek(),not only that after
 			//calling poll() method 2nd largest will become top automatically 
 			while (!queue.isEmpty() && nums[queue.peekLast()] <= nums[high]) {
-				//when the value is same or lesser ,no need to store it ..store max value as this subarray requires max value only 
+			//when the value is same or lesser ,no need to store it ..store max value as this subarray requires max value only 
 				queue.pollLast();
 			}
 			queue.offer(high);
